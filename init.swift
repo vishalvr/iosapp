@@ -132,6 +132,8 @@ _ = shell("rm", "-rf", ".git")
 
 changeOrganizationName()
 
+disec()
+
 print("\nRenaming to '\(projectName)'...")
 let enumerator = fileManager.enumerator(at: URL(fileURLWithPath: currentFolder), includingPropertiesForKeys: [.nameKey, .isDirectoryKey])!
 var directories: [URL] = []
