@@ -27,7 +27,7 @@ enum SetupStep: Int {
   }
 }
 
-// Helper methods
+// Helper method
 
 func prompt(message: String) -> String? {
   print("\n" + message)
