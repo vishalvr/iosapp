@@ -4,7 +4,7 @@ let baseProjectName = "ios-base"
 var projectName = "RSDemoProject"
 let baseDomain = "com.rootstrap"
 var bundleDomain = baseDomain
-let baseCompany = "Rootstrap Inc."
+let baseCompany = "CrazyByte"
 var companyName = baseCompany
 
 let whiteList: [String] = [".DS_Store", "UserInterfaceState.xcuserstate", "init.swift"]
