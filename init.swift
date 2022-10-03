@@ -35,6 +35,12 @@ func prompt(message: String) -> String? {
   return answer == nil || answer == "" ? nil : answer!
 }
 
+func disec(message: String) -> String? {
+  print("\n" + message)
+  let answer = readLine()
+  return answer == nil || answer == "" ? nil : answer!
+}
+
 func setup(step: SetupStep, defaultValue: String) -> String {
   let result = prompt(message: "\(step.rawValue). " + step.question + " (leave blank for \(defaultValue)).")
   guard let res = result else {
