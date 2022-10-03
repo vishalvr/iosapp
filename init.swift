@@ -155,5 +155,6 @@ print("Installing pods...")
 _ = shell("pod", "install")
 print("Opening new project...")
 _ = shell("open", "\(projectName).xcworkspace")
+print("Opened new project...")
 // Initialization Done!
 print("************** ALL SET! *******************")
