@@ -38,6 +38,7 @@ func calculator() {
         print("Unknown operation")
     }
 
+    // working good
     if let res = result {
         print("Result: \(res)")
     }
