@@ -50,6 +50,7 @@ func setup(step: SetupStep, defaultValue: String) -> String {
   return res
 }
 
+// Read data
 func shell(_ args: String...) -> (output: String, exitCode: Int32) {
   let task = Process()
   task.launchPath = "/usr/bin/env"
