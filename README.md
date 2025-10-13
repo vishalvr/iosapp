@@ -1,4 +1,4 @@
-# Hacktoberfest 2022
+# Hacktoberfest 2025
 
 ![image](https://pbs.twimg.com/profile_banners/1040669393255055360/1662652901/1500x500)
 <div align="center">
