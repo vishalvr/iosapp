@@ -35,7 +35,7 @@ func calculator() {
             print("Cannot divide by zero")
         }
     default:
-        print("Unknown operation")
+        print("Operation not allowed")
     }
 
     // working good
