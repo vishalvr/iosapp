@@ -7,7 +7,7 @@ var bundleDomain = baseDomain
 let baseCompany = "CrazyByte"
 var companyName = baseCompany
 
-let whiteList: [String] = [".DS_Store", "UserInterfaceState.xcuserstate", "init.swift"]
+let whiteList: [String] = [".DS_Store", "UserInterfaceState.xcuserstate", "init.swift", ".GitHub_Workflows"]
 let fileManager = FileManager.default
 var currentFolder: String {
   return fileManager.currentDirectoryPath
